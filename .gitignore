@@ -1,55 +1,31 @@
-### Java ###
-*.class
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# netbeans
+/nbproject
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# we use maven!
+/build.xml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# maven
+/target
 
+# vim
+.*.sw[a-p]
 
-### Eclipse ###
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
+# various other potential build files
+/build
+/bin
+/dist
+/manifest.mf
 
-# External tool builders
-.externalToolBuilders/
+# Mac filesystem dust
+.DS_Store
 
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# TeXlipse plugin
-.texlipse
-
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
